@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "simply-grab": {
+      "hosting": {
+        "EcommerceApp": [
+          "simply-grab"
+        ]
+      }
+    }
+  }
+}

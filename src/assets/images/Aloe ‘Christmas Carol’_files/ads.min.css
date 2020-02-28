@@ -1,0 +1,16 @@
+.adthrive-ad {
+overflow-x: visible;
+}
+
+
+.adthrive-sidebar.adthrive-stuck{
+margin-top: 90px;
+}
+
+body.adthrive-device-desktop .adthrive-comscore{
+margin-bottom: 0;
+}
+
+.adthrive-comscore {
+padding-top: 10px;
+}

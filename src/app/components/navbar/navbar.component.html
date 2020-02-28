@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">Simply Grab</a>
+    <button class="navbar-toggler" (click)=toggleNavBar() type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" [class.show]="isOpen" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="Active">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/account" routerLinkActive="Active">Account</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/cart" routerLinkActive="Active">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/orders" routerLinkActive="Active">Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/products" routerLinkActive="Active">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/login" routerLinkActive="Active">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/sign-up" routerLinkActive="Active" (click)="logout()">SignUp</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn bg-danger" routerLink="/logout">Logout</a>
+          </li>
+
+        
+      </ul>
+    </div>
+  </nav>
